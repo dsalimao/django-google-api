@@ -1,0 +1,5 @@
+<form action="{% url 'gmail:messages' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="q" value="query text to search Gmail messages">
+    <input type="submit" value="Query">
+</form>
