@@ -1,0 +1,11 @@
+.idea/
+
+*.pyc
+
+*.sqlite3
+
+*.ini
+
+*.cnf
+
+*.json
